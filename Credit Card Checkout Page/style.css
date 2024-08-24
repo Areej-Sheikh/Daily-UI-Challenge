@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 70%; */
+  background-color: rgb(199, 222, 242);
+}
+.page {
+  width: 30%;
+  height: 85%;
+  padding: 10px 10px;
+  /* border: 3px solid rgba(183, 176, 176, 0.543); */
+  border-radius: 10px;
+  background-color: rgb(252, 251, 244);
+  position: relative;
+
+}
+.creditcard {
+  width: 100%;
+  height: 40%;
+  border: 3px solid rgb(13, 2, 52);
+  background-image: url(Credit\ Card\ Background.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  /* width: 100%;
+  height: 100%; */
+}
+.creditcard > .chip > img {
+  margin-top: 18%;
+  width: 60px;
+  /* border: 3px solid greenyellow; */
+}
+/* .creditcard{
+  background-image: url(Credit\ Card\ Background.jpg);
+  background-position: center;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+} */
+.creditcard > .details {
+  margin-top: -55px;
+  margin-left: 60px;
+  color: white;
+}
+.creditcard > .details > .number {
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.creditcard > .details > .validity {
+  display: flex;
+  justify-content: start;
+
+  margin-top: 10px;
+}
+.creditcard > .details > .validity > label {
+  font-size: 12px;
+}
+.creditcard > .details > .date {
+  font-size: 1em;
+  margin-left: 10px;
+}
+.creditcard > .details > .cardholder {
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.creditcard > .logo {
+  /* border: 3px solid greenyellow; */
+  width: 15%;
+  height: 20%;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+.creditcard > .logo > img {
+  position: absolute;
+  width: 90px;
+  height: 25px;
+}
+
+.page > .inputbox {
+  padding: 10px;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  /* border: 3px solid greenyellow; */
+}
+.page > .inputbox > h1 {
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.page > .inputbox > .input > #i {
+  /* border: 3px solid greenyellow; */
+  padding: 8px 95px;
+  margin-bottom: 10px;
+}
+.page > .inputbox > .input > #ii {
+  padding: 8px 95px;
+  margin-bottom: 10px;
+}
+.page > .inputbox > .input > .row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  /* padding: 8px 10px;
+  margin-bottom: 10px; */
+  /* display: inline; */
+}
+.page > .inputbox > .input > .row > #iii,
+.page > .inputbox > .input > .row > #iiii {
+  flex: 1;
+  padding: 5px 5px;
+}
+.page > .inputbox > .checkbox {
+  /* border: 3px solid greenyellow; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+.page > .other {
+  width: 100%;
+  height: 15%;
+  /* border: 3px solid greenyellow; */
+ text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.page > .other img {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 20%;
+  top: 15%;
+  width: 50%;
+  height: 100%;
+}
+.page > button{
+  border: 3px solid  #4c30ed;
+  border-radius: 30px;
+background-color: #4c30ed;
+color: white;
+  padding: 5px 15px;
+  margin-left: 25%;
+}
+
+/* .page > .inputbox > .input > #iiii{
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+
+} */
