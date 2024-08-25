@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(184, 160, 254);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main > .box1 {
+  width: 90%;
+  height: 90%;
+  background-color: white;
+  background-image: url(podcast\ background.png);
+  background-size: cover;
+  background-position: center;
+  /* width: 100%;
+  height: 100%; */
+
+  /* position: relative; */
+}
+.box1 > nav {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  background-color: transparent;
+  /* border: 3px solid greenyellow; */
+  /* position: absolute; */
+}
+.box1 > nav > .title {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 3px solid greenyellow; */
+  /* margin-left: -70%; */
+}
+.box1 > nav > .title h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
+}
+.box1 > nav > .title > .cir {
+  width: 100px;
+  height: 55px;
+  /* border: 3px solid greenyellow; */
+  display: flex;
+  gap: 3px;
+  justify-content: center;
+  align-items: center;
+}
+.box1 > nav > .title > .cir #cir1 {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(184, 160, 254);
+  border-radius: 50% 50%;
+}
+.box1 > nav > .title > .cir #cir2 {
+  height: 25px;
+  width: 25px;
+  background-color: rgba(184, 160, 254, 0.621);
+  border-radius: 50% 50%;
+}
+.box1 > nav > .title > .cir #cir3 {
+  height: 25px;
+  width: 25px;
+  background-color: rgba(184, 160, 254, 0.283);
+  border-radius: 50% 50%;
+}
+
+.box1 > nav > .middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  /* border: 3px solid greenyellow; */
+}
+.box1 > nav > .middle a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+}
+.box1 > nav > .button {
+  width: 30%;
+  height: 100%;
+  /* border: 3px solid greenyellow; */
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  gap: 20px;
+  align-items: center;
+}
+#button1 {
+  padding: 10px 20px;
+  background-color: rgb(184, 160, 254);
+  color: white;
+  border: none;
+  border-radius: 30px;
+}
+#button2 {
+  padding: 10px 20px;
+  background-color: rgba(184, 160, 254, 0.283);
+  color: rgb(95, 61, 196);
+  border: none;
+  border-radius: 30px;
+}
+.box2 {
+  margin-top: 2%;
+  width: 100%;
+  height: 50%;
+  /* border: 3px solid greenyellow; */
+  padding: 20px;
+  margin-top: 20px;
+}
+.box2 .text {
+  width: 50%;
+  height: 120%;
+  margin-left: 3%;
+  margin-top: 1%;
+  /* border: 3px solid greenyellow; */
+  /* background-color: red; */
+}
+.box2 .text h3 {
+  margin-top: 20px;
+}
+#button3 {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgb(184, 160, 254);
+  color: white;
+  border: none;
+  border-radius: 30px;
+}
+.box3 {
+  width: 100%;
+  height: 60%;
+  /* border: 3px solid greenyellow; */
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.box3 > .box31 {
+  width: 30%;
+  height: 90%;
+  border: 3px solid black;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.box3 > .box32 {
+  width: 30%;
+  height: 90%;
+  border: 3px solid black;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.box3 > .box33 {
+  width: 30%;
+  height: 90%;
+  border: 3px solid black;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  
+}
+.box3 > .box31 > .icon31{
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgb(249,206,102);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(249,206,102);
+  border-radius: 10px;
+
+}
+.box3 > .box31 > .icon31 i{
+  font-size: 20px;
+  color: black;
+}
+.box3 > .box31 > .text31 a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-family: Ubuntu ;
+  font-weight: 600;
+
+}
+
+.box3> .box31 > .play{
+  width: 50px;
+  height: 50px;
+  /* border: 3px solid greenyellow; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.box3 > .box32 > .icon32{
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgb(250,137,103);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:rgb(250,137,103);
+  border-radius: 10px;
+
+}
+.box3 > .box32 > .icon32 i{
+  font-size: 20px;
+  color: black;
+}
+.box3 > .box32 > .text32 a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-family: Ubuntu ;
+  font-weight: 600;
+
+}
+.box3> .box32 > .play{
+  width: 50px;
+  height: 50px;
+  /* border: 3px solid greenyellow; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.box3 > .box33 > .icon33{
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgb(102,143,249);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:rgb(102,143,249);
+  border-radius: 10px;
+
+}
+.box3 > .box33 > .icon33 i{
+  font-size: 20px;
+  color: black;
+}
+.box3 > .box33 > .text33 a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-family: Ubuntu ;
+  font-weight: 600;
+
+}
+
+.box3> .box33 > .play{
+  width: 50px;
+  height: 50px;
+  /* border: 3px solid greenyellow; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
