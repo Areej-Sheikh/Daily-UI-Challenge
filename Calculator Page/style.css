@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  background-image: url(calculator\ background.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calculator {
+  width: 28%;
+  height: 90%;
+  background-color: #fff;
+  border-radius: 30px;
+  padding-bottom: 20px;
+}
+/* .calculator > .top {
+  height: 10%;
+  width: 100%;
+  border: 3px solid #4b6d92;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: #4b6d92;
+} */
+.calculator > .middle {
+  height:30%;
+  width: 100%;
+  border: 3px solid #4b6d92;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: #4b6d92;
+  margin-bottom: 4%;
+}
+.calculator .middle h3{
+  margin-top: 2%;
+  margin-left: 60%;
+  color: white;
+}
+.calculator .middle h1{
+
+  color: white;
+  margin-top: 20%;
+  margin-left: 60%;
+  font-size: 40px;
+
+}
+.calculator > .bottom {
+  height: 64%;
+  width: 100%;
+  /* border: 3px solid r    ed; */
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: -10%;
+}
+.bottom .row {
+  height: 50px;
+  width: 50px;
+  border: 1px solid rgba(169, 167, 167, 0.47);
+  margin-bottom: -90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px;
+}
+
+#o1 {
+  background-color: #4c6d90;
+}
+
+#o2 {
+  background-color: #4c6d90;
+}
+
+#o3 {
+  background-color: #4c6d90;
+}
+
+#o4 {
+  background-color: #4c6d90;
+}
+
+
+#o7 {
+    background-color: #EE8368;
+  }
+/* .bottom > .operator1 {
+  height: 50px;
+  width: 50px;
+  background-color: gray;
+  border-radius: 50% 50%;
+} */
+.bottom>div>h3:hover{
+    background-color: red;
+}
