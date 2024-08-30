@@ -1,0 +1,550 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: #161728;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+}
+.nav {
+  width: 7%;
+  height: 100%;
+  /* border: 2px solid yellow; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 12px;
+}
+.dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  /* border: 1px solid white; */
+}
+#dot1 {
+  background-color: #eb6a5e;
+}
+#dot2 {
+  background-color: #f4be4f;
+}
+#dot3 {
+  background-color: #60c453;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.icons i {
+  color: #383d5f;
+  font-size: 22px;
+}
+.icons i:hover{
+  color: white;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.profile img {
+  background-size: cover;
+  background-position: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.home {
+  width: 70%;
+  height: 100%;
+  /* border: 2px solid beige; */
+}
+.home > h1 {
+  margin-top: 8px;
+  margin-left: 20px;
+  color: white;
+  font-size: 25px;
+  font-family: monospace;
+}
+.card h1 {
+  margin-top: 8px;
+  margin-left: 20px;
+  color: white;
+  font-size: 25px;
+}
+.cards {
+  width: 100%;
+  height: 40%;
+  /* border: 2px solid #F4BE4F; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.card {
+  width: 32%;
+  height: 90%;
+  border: none;
+  border-radius: 30px;
+}
+
+#card1 {
+  background: rgb(13, 41, 225);
+  background: linear-gradient(
+    90deg,
+    rgba(13, 41, 225, 1) 0%,
+    rgba(2, 212, 245, 1) 100%
+  );
+}
+#card1 h1,
+#card2 h1,
+#card3 h1 {
+  margin-top: 35px;
+  color: white;
+  font-size: 30px;
+}
+#card1 p,
+#card2 p,
+#card3 p {
+  color: white;
+  /* font-weight: bold; */
+  font-size: 15px;
+  font-family: DejaVu Sans Mono, monospace;
+  margin-top: 75px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+#card2 {
+  background: rgb(245, 7, 226);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 7, 226, 1) 0%,
+    rgba(255, 179, 0, 1) 100%
+  );
+}
+#card3 {
+  background: rgb(227, 221, 78);
+  background: linear-gradient(
+    90deg,
+    rgba(227, 221, 78, 1) 0%,
+    rgba(48, 242, 218, 1) 100%
+  );
+}
+.down {
+  width: 100%;
+  height: 54%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  /* border: 2px solid greenyellow; */
+}
+.recent {
+  width: 40%;
+  height: 100%;
+  /* border: 2px solid white; */
+}
+.recent h2 {
+  color: white;
+  font-family: sans-serif;
+}
+.songs {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  gap: 8px;
+  width: 100%;
+  height: 50%;
+  /* border: 2px solid greenyellow; */
+  padding: 10px;
+}
+.track {
+  width: 100%;
+  height: 45%;
+  background-color: #52505062;
+  border-radius: 10px;
+  padding: 10px 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  /* border: 2px solid rgb(255, 47, 172); */
+}
+.track:hover {
+  border: 1px solid white;
+}
+.track a {
+  color: white;
+  text-decoration: none;
+}
+
+.track i {
+  /* margin-left: 65%; */
+
+  position: absolute;
+  font-size: 25px;
+  top: 17px;
+  left: 85%;
+}
+.track p {
+  color: rgb(159, 157, 157);
+}
+.song {
+  width: 80%;
+  height: 100%;
+  /* border: 2px solid pink  ; */
+}
+.cover {
+  width: 47px;
+  height: 47px;
+  /* border: 2px solid yellow; */
+}
+#c1 {
+  background-image: url(https://i.scdn.co/image/ab67616d0000b27356ac7b86e090f307e218e9c8);
+  background-position: center;
+  background-size: cover;
+}
+#c2 {
+  background-image: url(https://cdns-images.dzcdn.net/images/cover/1e012b5bba83edac911b09ca1ab29e1e/500x500.jpg);
+
+  background-position: center;
+  background-size: cover;
+}
+#c3 {
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/e/eb/JasonDeruloTipToe.jpg);
+
+  background-position: center;
+  background-size: cover;
+}
+#c4 {
+  background-image: url(https://i1.sndcdn.com/artworks-000574507157-dkh7s9-t500x500.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.playlist {
+  width: 59%;
+  height: 100%;
+  /* border: 2px solid red; */
+}
+
+.playlist > h1 {
+  /* margin-top: 8px;
+  margin-left: 20px; */
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+
+  /* font-family: monospace; */
+}
+.all {
+  padding: 10px;
+  height: 90%;
+  width: 100%;
+  /* border: 3px solid rgb(255, 106, 0); */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  /* gap: 3px; */
+}
+.list:hover {
+  border: 1px solid white;
+}
+.list {
+  margin-left: 10px;
+  width: 85%;
+  height: 90%;
+  padding: 20px 20px;
+  border-radius: 30px;
+  background-color: #23263d; /* Optional: for better visualization */
+  border: 1px solid #23263d;
+  /* Optional: for better visualization */
+  /* Optional: for better visualization */
+  /* Add any other styles you need for the .list elements */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3px;
+}
+.boxx {
+  /* border: 2px solid yellow; */
+  display: flex;
+  gap: 3px;
+  /* border: 2px solid orange; */
+}
+.box {
+  width: 50px;
+  height: 50px;
+  /* border: 2px solid orange; */
+  border-radius: 10px;
+}
+.box p {
+  color: #bfbfc0;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 14px;
+}
+.info {
+  /* border: 2px solid slateblue; */
+  width: 150px;
+  height: 45px;
+}
+#b {
+  background-color: #383d5f;
+}
+#b1 {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+#b2 {
+  background: rgb(255, 179, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 179, 0, 1) 0%,
+    rgba(255, 244, 0, 1) 50%,
+    rgba(0, 255, 184, 1) 100%
+  );
+}
+#b3 {
+  background: rgb(255, 68, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 68, 0, 1) 0%,
+    rgba(255, 205, 0, 1) 50%,
+    rgba(252, 0, 255, 1) 100%
+  );
+}
+#b4 {
+  background: rgb(0, 14, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 14, 255, 1) 0%,
+    rgba(0, 255, 128, 1) 50%,
+    rgba(226, 0, 255, 1) 100%
+  );
+}
+#b5 {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 243, 0, 1) 50%,
+    rgba(130, 255, 0, 1) 100%
+  );
+}
+#b6 {
+  background: rgb(255, 0, 138);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 138, 1) 0%,
+    rgba(0, 254, 255, 1) 50%,
+    rgba(255, 218, 0, 1) 100%
+  );
+}
+#b7 {
+  background: rgb(0, 255, 8);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 255, 8, 1) 0%,
+    rgba(0, 255, 222, 1) 50%,
+    rgba(255, 218, 0, 1) 100%
+  );
+}
+#b8 {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(12, 0, 255, 1) 50%,
+    rgba(0, 255, 16, 1) 100%
+  );
+}
+.info h1 {
+  /* margin-top: 8px;
+  margin-left: 20px; */
+  color: white;
+  font-size: 19px;
+  font-family: monospace;
+}
+.info p {
+  color: rgb(102, 102, 102);
+  font-size: 13px;
+}
+.sidebar {
+  width: 23%;
+  height: 100%;
+  background-color: #23263d;
+  /* border: 2px solid greenyellow; */
+}
+.top {
+  width: 100%;
+  height: 55%;
+  /* border: 2px solid salmon; */
+}
+.top h1 {
+  margin-top: 8px;
+  margin-left: 20px;
+  color: white;
+  font-size: 19px;
+  font-family: sans-serif;
+}
+.title {
+  margin-top: 5px;
+  padding: 5px 10px;
+  width: 100%;
+  height: 10%;
+  /* border: 2px solid cornflowerblue; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title i {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+.music {
+  width: 100%;
+  height: 90%;
+  /* border: 2px solid cornflowerblue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box11 {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  background-image: url(https://www.udiscovermusic.com/wp-content/uploads/2019/08/Taylor-Swift-Lover-album-cover-820-1024x1024.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.music i {
+  color: #383d5f;
+
+  font-size: 20px;
+  padding: 3px;
+  
+}
+.music i:hover{
+  color: white;
+
+  font-weight: 600;
+}
+.queue {
+  width: 100%;
+  height: 44%;
+  /* border: 2px solid coral; */
+}
+.up {
+  margin-top: 5px;
+  padding: 5px 10px;
+  width: 100%;
+  margin-bottom: 20px;
+
+  height: 10%;
+  /* border: 2px solid cornflowerblue; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.up h1 {
+  color: white;
+  font-size: 20px;
+}
+.up i {
+  color: white;
+}
+
+.item {
+  width: 95%;
+  height: 20%;
+  margin-bottom: 10px;
+  background-color: #00000021;
+  border-radius: 10px;
+  padding: 10px 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  /* border: 2px solid rgb(255, 47, 172); */
+}
+.item:hover {
+  border: 1px solid white;
+}
+.image {
+  width: 40px;
+  height: 40px;
+  /* border: 2px solid plum; */
+}
+.details {
+  width: 200px;
+  height: 30px;
+  /* border: 2px solid palevioletred; */
+}
+#im1 {
+  background-image: url(https://i.scdn.co/image/ab67616d0000b273b4c5982e1b92f97a126fc18c);
+  background-position: center;
+  background-size: cover;
+}
+#im2 {
+  background-image: url(https://i1.sndcdn.com/artworks-000434314725-ctevw4-t500x500.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#im3 {
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/2/28/Imagine_Dragons_Thunder.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.details i {
+  /* margin-left: 65%; */
+
+  position: absolute;
+  font-size: 25px;
+  top: 17px;
+  left: 85%;
+}
+
+.details h1 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.details p {
+  color: rgb(159, 157, 157);
+}

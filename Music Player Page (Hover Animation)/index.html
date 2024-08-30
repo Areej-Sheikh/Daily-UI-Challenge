@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="nav">
+        <div class="dots">
+          <div id="dot1" class="dot"></div>
+          <div id="dot2" class="dot"></div>
+          <div id="dot3" class="dot"></div>
+        </div>
+        <div class="icons">
+          <i class="ri-home-line"></i>
+          <i class="ri-search-line"></i>
+          <i class="ri-compass-3-line"></i>
+          <i class="ri-heart-3-line"></i>
+          <i class="ri-bar-chart-horizontal-line"></i>
+          <i class="ri-settings-line"></i>
+        </div>
+        <div class="profile">
+          <img
+            src="https://img.freepik.com/premium-vector/school-teacher-avatar-icon-flat-illustration-school-teacher-avatar-vector-icon-web-design_98396-34363.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="home">
+        <h1>HOME</h1>
+        <div class="cards">
+          <div id="card1" class="card">
+            <p>New Album By Taylor Swift</p>
+            <h1>1989 (Taylor's Version)</h1>
+          </div>
+          <div id="card2" class="card">
+            <p>New Album By Imagine Dragons</p>
+            <h1>
+              Mercury: <br />
+              Act 1
+            </h1>
+          </div>
+          <div id="card3" class="card">
+            <p>New Album By Coldplay</p>
+            <h1>Music Of The Spheres</h1>
+          </div>
+        </div>
+        <div class="down">
+          <div class="recent">
+            <h2>Recently Played</h2>
+            <div class="songs">
+              <div class="track">
+                <div id="c1" class="cover"></div>
+                <div class="song">
+                  <a href=""
+                    >7 Rings<i class="ri-play-circle-fill"></i>
+                    <p>By Ariana Grande</p>
+                  </a>
+                </div>
+              </div>
+              <div class="track">
+                <div id="c2" class="cover"></div>
+                <div class="song">
+                  <a href=""
+                    >Woman<i class="ri-play-circle-fill"></i>
+                    <p>Doja Cat</p>
+                  </a>
+                </div>
+              </div>
+              <div class="track">
+                <div id="c3" class="cover"></div>
+                <div class="song">
+                  <a href=""
+                    >Tip Toe <i class="ri-play-circle-fill"></i>
+                    <p>By Jason Derulo</p>
+                  </a>
+                </div>
+              </div>
+              <div class="track">
+                <div id="c4" class="cover"></div>
+                <div class="song">
+                  <a href=""
+                    >Starboy<i class="ri-play-circle-fill"></i>
+                    <p>By The Weeknd</p>
+                  </a>
+                </div>
+              </div>
+
+              <!-- <a href="">Photograph<i class="ri-play-circle-fill"></i> </a>
+              <p>By Ed Sheeran</p> -->
+            </div>
+          </div>
+          <div class="playlist">
+            <h1>Your Playlists</h1>
+            <div class="all">
+              <div class="list">
+                <div class="boxx">
+                  <div id="b1" class="box"></div>
+                  <div id="b2" class="box"></div>
+                  <div id="b" class="box">
+                    <p>+4</p>
+                  </div>
+                </div>
+                <div class="info">
+                  <h1>Lazy Sunday</h1>
+                  <p>Luna Rae, Jaxon Blue ...</p>
+                </div>
+              </div>
+
+              <div class="list">
+                <div class="boxx">
+                  <div id="b3" class="box"></div>
+                  <div id="b4" class="box"></div>
+                  <div id="b" class="box">
+                    <p>+9</p>
+                  </div>
+                </div>
+                <div class="info">
+                  <h1>Focus Flow</h1>
+                  <p>Aria Vale, Kai Rivers ...</p>
+                </div>
+              </div>
+              <div class="list">
+                <div class="boxx">
+                  <div id="b5" class="box"></div>
+                  <div id="b6" class="box"></div>
+                  <div id="b" class="box">
+                    <p>+7</p>
+                  </div>
+                </div>
+                <div class="info">
+                  <h1>Soundscapes</h1>
+                  <p>Sierra Nova, Ethan Blaze ...</p>
+                </div>
+              </div>
+              <div class="list">
+                <div class="boxx">
+                  <div id="b7" class="box"></div>
+                  <div id="b8" class="box"></div>
+                  <div id="b" class="box">
+                    <p>+5</p>
+                  </div>
+                </div>
+                <div class="info">
+                  <h1>Vintage Vibes</h1>
+                  <p>Finn Wilder, Mila Jade ...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="top">
+          <div class="title">
+            <h1>Now Playing</h1>
+            <i class="ri-menu-3-fill"></i>
+          </div>
+          <div class="music">
+            <div class="box11"></div>
+
+            <div class="name"></div>
+            <div class="controls">
+              <i class="ri-shuffle-line"></i>
+              <i class="ri-skip-back-line"></i>
+              <i class="ri-play-large-fill"></i>
+              <i class="ri-skip-forward-line"></i>
+              <i class="ri-repeat-one-fill"></i>
+            </div>
+          </div>
+        </div>
+        <div class="queue">
+          <div class="up">
+            <h1>Your Queue</h1>
+            <i class="ri-menu-add-line"></i>
+          </div>
+
+          <div class="item">
+            <div  id="im1" class="image"></div>
+            <div class="details">
+              <h1>Halo<i class="ri-play-circle-fill"></i></h1>
+              <p>By Beyoncé</p>
+            </div>
+          </div>
+          <div class="item">
+            <div  id="im2" class="image"></div>
+            <div class="details">
+              <h1>Firework<i class="ri-play-circle-fill"></i></h1>
+              <p>By Katy Perry</p>
+            </div>
+          </div>
+          <div class="item">
+            <div id="im3"  class="image"></div>
+            <div class="details">
+              <h1>Thunder<i class="ri-play-circle-fill"></i></h1>
+              <p> Imagine Dragons</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
