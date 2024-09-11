@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(70, 77, 116, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page {
+  width: 20%;
+  height: 90%;
+  background-color: #fff;
+}
+.top {
+  width: 100%;
+  height: 10%;
+  background-color: #161826;
+}
+.bottom {
+  width: 100%;
+  height: 90%;
+  background-color: #262a41;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 2px solid green; */
+}
+#leader {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: start;
+}
+#leader h1 {
+  color: white;
+  font-size: 20px;
+}
+#leader i {
+  font-size: 20px;
+  color: white;
+}
+.ranks {
+  width: 100%;
+  height: 25%;
+  /* border: 2px solid grey; */
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  gap: 5px;
+}
+.rank {
+  width: 70px;
+  height: 80px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  /* background-color: lawngreen; */
+}
+#r1 {
+  background-color: #9142fe;
+}
+#n1 {
+  margin-top: 5px;
+  background-color: #b383f6;
+}
+#r2 {
+  background-color: #ffa843;
+  width: 70px;
+  height: 100px;
+}
+#n2 {
+  margin-top: 5px;
+  background-color: #ffc17a;
+}
+#r3 {
+  background-color: #f54667;
+}
+#n3 {
+  margin-top: 5px;
+  background-color: #fc7b93;
+}
+.num {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.num p {
+  color: white;
+  font-size: 10px;
+}
+.photo {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.shadow {
+  /* width: 100%;
+    height: 40%; */
+  background-color: black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shadow p{
+    font-size: 12px;
+}
+
+#s1 {
+  width: 100%;
+  height: 50%;
+}
+#p1 {
+  top: 24%;
+}
+#p1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+#name1{
+    margin-top: 10px;
+}
+#s2 {
+  width: 100%;
+  height: 50%;
+}
+#p2 {
+  top: 22%;
+}
+#p2 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+  object-position: center;
+}
+#s3 {
+  width: 100%;
+  height: 50%;
+}
+#p3 {
+    top: 24%;
+  
+}
+#p3 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+#name3{
+    margin-top: 10px;
+}
+.tiles {
+  width: 100%;
+  height: 80%;
+  /* border: 2px solid rgb(255, 0, 0); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.box {
+  width: 100%;
+  height: 20%;
+  /* background-color: salmon; */
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+.number{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: rgb(53, 52, 52);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+.number p{
+    color: white;
+    font-size: 15px;
+
+
+}
+.picture{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #fff;
+
+}
+.picture img{
+    width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+  object-position: center;
+
+}
+.container{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* border: 2px solid gold; */
+}
+.name p{
+    color: white;
+}
+.score{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.score p{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+#b1 {
+  background-color: #fec442;
+}
+#b2 {
+  background-color: #8942fe;
+}
+#b3 {
+  background-color: #ee4770;
+}
+#b4 {
+  background-color: #565555;
+}
+#b5 {
+  background-color: #565555;
+}
