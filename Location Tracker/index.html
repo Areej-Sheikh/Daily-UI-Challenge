@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Location Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="page">
+        <div class="top">
+          <div class="time">
+            <p>12:24</p>
+          </div>
+          <div class="notch"></div>
+          <div class="signal">
+            <i class="ri-signal-tower-line"></i>
+            <i class="ri-wifi-line"></i>
+            <i class="ri-battery-low-line"></i>
+          </div>
+        </div>
+        <div class="top2">
+          <div class="direction">
+            <i class="ri-arrow-left-s-line"></i>
+            <p>Direction</p>
+          </div>
+        </div>
+        <div class="maps">
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14663.10202571272!2d77.44687101860913!3d23.251254922089966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c43977890a98d%3A0x928a948dc6de732e!2sSheryians%20Coding%20School!5e0!3m2!1sen!2sin!4v1718725643656!5m2!1sen!2sin"
+              width="240"
+              height="200"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <img src="" alt="" />
+          </div>
+        </div>
+        <div class="travel-mode">
+          <div class="car">
+            <i class="ri-car-line"></i>
+            <p>15min</p>
+          </div>
+          <div class="bus">
+            <i class="ri-bus-line"></i>
+            <p>20min</p>
+          </div>
+          <div class="walk">
+            <i class="ri-walk-line"></i>
+            <p>45min</p>
+          </div>
+        </div>
+        <div class="location">
+          <div class="my">
+            <i class="ri-checkbox-blank-circle-fill"></i>
+            <div id="box">
+              <p>My Location</p>
+            </div>
+          </div>
+          <div class="to">
+            <i class="ri-map-pin-line"></i>
+            <div id="box">
+              <p>My Destination</p>
+            </div>
+          </div>
+        </div>
+        <div class="distance">
+          <h3>12.2km</h3>
+          <h5>Fastest route due to traffic</h5>
+        </div>
+        <div class="button">
+          <button id="b1" class="buttons"><i class="ri-menu-4-fill"></i>Options</button>
+          <button id="b2" class="buttons"><i class="ri-send-plane-fill"></i>Start</button>
+          <button id="b3" class="buttons"><i class="ri-map-pin-5-fill"></i>Pin</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
