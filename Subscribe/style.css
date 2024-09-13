@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: #FCCD5E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page{
+    width: 50%;
+    height: 50%;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 8px 8px 10px #6d6c6c68;
+}
+.photo{
+    width: 28%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /* border: 2px solid rgb(135, 222, 222); */
+}
+.photo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.text-box{
+    width: 72%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.top{
+  width: 100%;
+  height: 25%;
+  padding: 10px;
+  /* border: 2px solid magenta; */
+}
+.top i{
+  font-size: 30px;
+  margin-left: 90%;
+}
+.welcome{
+  width: 100%;
+  height: 45%;
+  /* border: 2px solid navy; */
+  padding: 20px;
+}
+.welcome h1{
+  color: #351B65;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 10px;
+  
+}
+.welcome p{
+  color: gray;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+  
+}
+.button-div{
+  width: 100%;
+  height: 30%;
+  /* border: 2px solid orangered; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+.subscribe{
+  width: 65%;
+  height: 50%;
+  border: 1px solid grey;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subscribe input{
+  border:transparent;
+  margin-left: 5px;
+}
+.subscribe button{
+  padding: 10px 19px;
+  color: white;
+  background-color: #FE2E60;
+  border: none;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: 8%;
+}
