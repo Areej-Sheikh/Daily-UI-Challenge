@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page {
+  width: 50%;
+  height: 100%;
+  background-color: #013732;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page2 {
+  width: 80%;
+  height: 90%;
+  background-color: #e1e1ca;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.top {
+  width: 100%;
+  height: 5%;
+  /* border: 2px solid rgb(89, 47, 255); */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 10%;
+  height: 100%;
+  /* background-color: purple; */
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.product {
+  width: 60%;
+  height: 100%;
+  /* border: 2px solid cornflowerblue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.product a {
+  text-decoration: none;
+  color: #003532;
+}
+.login {
+  width: 20%;
+  height: 100%;
+  /* border: 2px solid crimson; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login button {
+  padding: 5px 20px;
+  color: white;
+  background-color: #003532;
+  border: none;
+}
+.title {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.title h1 {
+  font-size: 26px;
+  font-family: sans-serif;
+  font-weight: 900;
+  color: #003632;
+}
+.tabs {
+  width: 100%;
+  height: 5%;
+  /* border: 2px solid black; */
+  border-bottom: 1px solid #003532;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.tabs a {
+  text-decoration: none;
+  color: #003532;
+}
+.page3 {
+  width: 100%;
+  height: 75%;
+  border: 2px solid #ededdf;
+  background-color: #ededdf;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.client {
+  width: 100%;
+  height: 10%;
+  /* border: 2px solid greenyellow; */
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.client button {
+  padding: 5px 10px;
+  color: white;
+  background-color: #003532;
+  border: none;
+  font-size: 13px;
+}
+.page31 {
+  width: 95%;
+  height: 95%;
+  border-radius: 10px;
+  background-color: #edead8;
+  /* border: 2px solid #121211; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.top31 {
+  width: 100%;
+  height: 5%;
+  background-color: #f1f2f4;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  justify-content: space-between;
+}
+.left {
+  width: 10%;
+  height: 100%;
+  /* border: 1px solid magenta; */
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 2px;
+}
+.cir {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 10px;
+}
+#c1 {
+  background-color: gray;
+}
+#c2 {
+  background-color: #908f8f;
+}
+#c3 {
+  background-color: #cdcccc;
+}
+.right {
+  width: 5%;
+  height: 100%;
+  /* border: 1px solid magenta; */
+}
+.centre {
+  width: 30%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(220, 218, 218);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.centre p {
+  font-size: 12px;
+}
+.box {
+  width: 100%;
+  height: 75%;
+  /* border: 2px solid greenyellow; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  width: 50%;
+  height: 100%;
+  /* border: 2px solid black; */
+}
+.form-top {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.form-top a {
+  text-decoration: none;
+  font-size: 10px;
+}
+.form-bottom {
+  width: 100%;
+  height: 90%;
+  /* border: 2px solid yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  flex-direction: column;
+}
+.box1 {
+  width: 100%;
+  height: 50%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 2px;
+  flex-direction: column;
+}
+.box1 h4 {
+  font-size: 14px;
+}
+.box1 input {
+  width: 100%;
+  height: 30%;
+}
+.box1 input :placeholder-shown {
+  width: 100%;
+  height: 30%;
+}
+.box2 {
+  width: 100%;
+  height: 5%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.box2 a {
+  font-size: 10px;
+}
+.box2 label {
+  font-size: 10px;
+}
+.box3 {
+  width: 110%;
+  height: 20%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.google,
+.Linkden {
+  width: 45%;
+  height: 70%;
+  border: 1px solid rgb(140, 140, 140);
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  justify-content: center;
+}
+.google p {
+  font-size: 8px;
+}
+
+.Linkden p {
+  font-size: 8px;
+}
+.google i {
+  font-size: 8px;
+  color: green;
+}
+
+.Linkden i {
+  font-size: 8px;
+  color: blue;
+}
+.check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.photo {
+  width: 50%;
+  height: 100%;
+  /* border: 2px solid black; */
+}
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.steps {
+  width: 100%;
+  height: 30%;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+}
+.tile {
+  width: 23%;
+  height: 80%;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+}
+.tile h5{
+  font-family: sans-serif;
+font-size: 12px;
+color: #003632;
+font-weight: 600;
+}
+.tile p{
+  font-size: 10px;
+color: #003632;
+
+}
