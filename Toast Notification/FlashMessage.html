@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="FlashMessage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <!-- This popup will slide-in & slide-out -->
+        <button type="button" class="toast-btn success-toast" msg="Settings saved" icon="fa-check" icon-color="#27ae60" animation="slide-in-slide-out">Success</button>
+    
+        <!-- This popup will slide-in & fade-out -->
+        <button type="button" class="toast-btn danger-toast" msg="Error: Unable to save changes" icon="fa-xmark" icon-color="#c0392b" animation="slide-in-fade-out">Error</button>
+    
+        <!-- This popup will slide-in & slide-out -->
+        <button type="button" class="toast-btn info-toast" msg="New message received" icon="fa-info" icon-color="#2980b9" animation="slide-in-slide-out">Information</button>
+    
+        <!-- This popup will slide-in & fade-out -->
+        <button type="button" class="toast-btn warning-toast" msg="You have unsaved changes!" icon="fa-triangle-exclamation" icon-color="#f39c12" animation="slide-in-fade-out">Warning</button>
+        </div>
+    </div>
+    <div class="toasts"></div>
+    <div class="master-toast-notification hide-toast">
+        <div class="toast-content">
+            <div class="toast-icon">
+                <i class="fa-solid"></i>
+            </div>
+            <div class="toast-msg"></div>
+        </div>
+        <div class="toast-progress">
+            <div class="toast-progress-bar"></div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="FlashMessage.js"></script>
+</body>
+</html>
